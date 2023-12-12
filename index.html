@@ -61,6 +61,59 @@
                 height: 1000px;
                 background-color: black;
             }
+            .facebook-login-form {
+                width: 400px;
+                background-color: #fff;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.2);
+            }
+            .facebook-login-form input {
+                padding: 12px;
+                width: 100%;
+                border: 1px solid lightgray;
+                border-radius: 3px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .facebook-login-form button {
+                background-color: #1877f2;
+                width: 100%;
+                padding: 12px;
+                color: #fff;
+                font-size: 16px;
+                border-radius: 5px;
+                border: none;
+                font-weight: bold;
+            }
+            .forgot-password {
+                text-align: center;
+                display: block;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                color: blue;
+                text-decoration: none;
+            }
+            hr {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                border-top: 1px solid lightgray;
+            }
+            .create-account {
+                background-color: #42b72a;
+                width: 200px;
+                margin: auto;
+                text-align: center;
+                display: block;
+                padding: 12px;
+                color: #fff;
+                font-size: 16px;
+                border-radius: 5px;
+                border: none;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
         </style>
     </head>
     <body>
@@ -138,6 +191,19 @@
             <div class="circle"></div>
             <div class="stand"></div>
         </div>
+
+        <br>
+        <br>
+
+
+        <form class="facebook-login-form">
+            <input type="text" placeholder="Email Address or phone number">
+            <input type="password" placeholder="Password">
+            <button>Login</button>
+            <a href="" class="forgot-password">Forgotten password</a>
+            <hr>
+            <a href="" class="create-account">Create new account</a>
+        </form>
 
 
     </body>
